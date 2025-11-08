@@ -1,0 +1,535 @@
+--1x1x1x1 gui made by dev1xd give credits if you want to modify
+
+--------------------------------------------------------
+
+local _1X1X1X1sGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TitleFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local _1X1X1X1DECAL = Instance.new("TextButton")
+local SkyBox = Instance.new("TextButton")
+local DestroyAll = Instance.new("TextButton")
+local KickAll = Instance.new("TextButton")
+local KillAll = Instance.new("TextButton")
+local CreateBaseplate = Instance.new("TextButton")
+local _666 = Instance.new("TextButton")
+local DiscoFog = Instance.new("TextButton")
+local ScarySkeleton = Instance.new("TextButton")
+local P = Instance.new("TextButton")
+
+--Properties:
+
+_1X1X1X1sGui.Name = "1X1X1X1's Gui"
+_1X1X1X1sGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_1X1X1X1sGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+_1X1X1X1sGui.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = _1X1X1X1sGui
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderSizePixel = 3
+Main.Position = UDim2.new(0, 111, 0, 202)
+Main.Size = UDim2.new(0, 407, 0, 321)
+
+TitleFrame.Name = "Title Frame"
+TitleFrame.Parent = Main
+TitleFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TitleFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TitleFrame.BorderSizePixel = 3
+TitleFrame.Size = UDim2.new(0, 407, 0, 53)
+
+TextLabel.Parent = TitleFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0.843230188, 0, 1, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "1X1X1X1's GUI"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+ImageLabel.Parent = TitleFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.809975982, 0, -0.226415098, 0)
+ImageLabel.Size = UDim2.new(0.190023601, 0, 1.50943398, 0)
+ImageLabel.Image = "rbxassetid://129522351925015"
+
+_1X1X1X1DECAL.Name = "1X1X1X1 DECAL"
+_1X1X1X1DECAL.Parent = Main
+_1X1X1X1DECAL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1X1X1X1DECAL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1X1X1X1DECAL.BorderSizePixel = 0
+_1X1X1X1DECAL.Position = UDim2.new(0, 0, 0, 87)
+_1X1X1X1DECAL.Size = UDim2.new(0, 127, 0, 50)
+_1X1X1X1DECAL.Font = Enum.Font.SourceSans
+_1X1X1X1DECAL.Text = "1X4 Decal"
+_1X1X1X1DECAL.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1X1X1X1DECAL.TextScaled = true
+_1X1X1X1DECAL.TextSize = 14.000
+_1X1X1X1DECAL.TextWrapped = true
+
+SkyBox.Name = "SkyBox"
+SkyBox.Parent = Main
+SkyBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SkyBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox.BorderSizePixel = 0
+SkyBox.Position = UDim2.new(0, 140, 0, 87)
+SkyBox.Size = UDim2.new(0, 127, 0, 50)
+SkyBox.Font = Enum.Font.SourceSans
+SkyBox.Text = "1X4 SkyBox"
+SkyBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+SkyBox.TextScaled = true
+SkyBox.TextSize = 14.000
+SkyBox.TextWrapped = true
+
+DestroyAll.Name = "Destroy All"
+DestroyAll.Parent = Main
+DestroyAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DestroyAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DestroyAll.BorderSizePixel = 0
+DestroyAll.Position = UDim2.new(0, 279, 0, 87)
+DestroyAll.Size = UDim2.new(0, 127, 0, 50)
+DestroyAll.Font = Enum.Font.SourceSans
+DestroyAll.Text = "Destroy All"
+DestroyAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+DestroyAll.TextScaled = true
+DestroyAll.TextSize = 14.000
+DestroyAll.TextWrapped = true
+
+KickAll.Name = "Kick All"
+KickAll.Parent = Main
+KickAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KickAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KickAll.BorderSizePixel = 0
+KickAll.Position = UDim2.new(0, 0, 0, 154)
+KickAll.Size = UDim2.new(0, 127, 0, 50)
+KickAll.Font = Enum.Font.SourceSans
+KickAll.Text = "Kick all"
+KickAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+KickAll.TextScaled = true
+KickAll.TextSize = 14.000
+KickAll.TextWrapped = true
+
+KillAll.Name = "Kill All"
+KillAll.Parent = Main
+KillAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillAll.BorderSizePixel = 0
+KillAll.Position = UDim2.new(0, 140, 0, 154)
+KillAll.Size = UDim2.new(0, 127, 0, 50)
+KillAll.Font = Enum.Font.SourceSans
+KillAll.Text = "Kill All"
+KillAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillAll.TextScaled = true
+KillAll.TextSize = 14.000
+KillAll.TextWrapped = true
+
+CreateBaseplate.Name = "Create Baseplate"
+CreateBaseplate.Parent = Main
+CreateBaseplate.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreateBaseplate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreateBaseplate.BorderSizePixel = 0
+CreateBaseplate.Position = UDim2.new(0, 279, 0, 154)
+CreateBaseplate.Size = UDim2.new(0, 127, 0, 50)
+CreateBaseplate.Font = Enum.Font.SourceSans
+CreateBaseplate.Text = "Create Baseplate"
+CreateBaseplate.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreateBaseplate.TextScaled = true
+CreateBaseplate.TextSize = 14.000
+CreateBaseplate.TextWrapped = true
+
+_666.Name = "666"
+_666.Parent = Main
+_666.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_666.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_666.BorderSizePixel = 0
+_666.Position = UDim2.new(0, 0, 0, 227)
+_666.Size = UDim2.new(0, 127, 0, 50)
+_666.Font = Enum.Font.SourceSans
+_666.Text = "666"
+_666.TextColor3 = Color3.fromRGB(0, 0, 0)
+_666.TextScaled = true
+_666.TextSize = 14.000
+_666.TextWrapped = true
+
+DiscoFog.Name = "Disco Fog"
+DiscoFog.Parent = Main
+DiscoFog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DiscoFog.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DiscoFog.BorderSizePixel = 0
+DiscoFog.Position = UDim2.new(0, 140, 0, 227)
+DiscoFog.Size = UDim2.new(0, 127, 0, 50)
+DiscoFog.Font = Enum.Font.SourceSans
+DiscoFog.Text = "Disco"
+DiscoFog.TextColor3 = Color3.fromRGB(0, 0, 0)
+DiscoFog.TextScaled = true
+DiscoFog.TextSize = 14.000
+DiscoFog.TextWrapped = true
+
+ScarySkeleton.Name = "Scary Skeleton"
+ScarySkeleton.Parent = Main
+ScarySkeleton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScarySkeleton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScarySkeleton.BorderSizePixel = 0
+ScarySkeleton.Position = UDim2.new(0, 279, 0, 227)
+ScarySkeleton.Size = UDim2.new(0, 127, 0, 50)
+ScarySkeleton.Font = Enum.Font.SourceSans
+ScarySkeleton.Text = "Spooky Scary Skeleton"
+ScarySkeleton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScarySkeleton.TextScaled = true
+ScarySkeleton.TextSize = 14.000
+ScarySkeleton.TextWrapped = true
+
+P.Name = "P"
+P.Parent = _1X1X1X1sGui
+P.BackgroundColor3 = Color3.fromRGB(154, 0, 3)
+P.BorderColor3 = Color3.fromRGB(0, 0, 0)
+P.BorderSizePixel = 0
+P.Position = UDim2.new(0, -8, 0, 246)
+P.Size = UDim2.new(0, 39, 0, 43)
+P.Text = "<"
+P.TextSize = 31.000
+
+-- Scripts:
+
+local function GKJA_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	local frame = script.Parent
+	
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale,startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService("TweenService"):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(GKJA_fake_script)()
+local function GKIP_fake_script() -- _1X1X1X1DECAL.LocalScript 
+	local script = Instance.new('LocalScript', _1X1X1X1DECAL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- ServerScriptService/AddDecalsToAllFaces.lua
+		local SEARCH_CONTAINERS = {
+			game:GetService("Workspace"),
+			-- tambahkan container lain kalau perlu
+		}
+	
+		local NEW_ID = 6147424071 -- ganti dengan ID yang diinginkan
+	
+		local faces = {
+			Enum.NormalId.Top,
+			Enum.NormalId.Bottom,
+			Enum.NormalId.Left,
+			Enum.NormalId.Right,
+			Enum.NormalId.Front,
+			Enum.NormalId.Back,
+		}
+	
+		local function clearExistingFaceDecals(part)
+			for _, child in ipairs(part:GetChildren()) do
+				if child:IsA("Decal") then
+					-- optional: hanya hapus decal yang bukan penting (atau beri kondisi)
+					child:Destroy()
+				end
+			end
+		end
+	
+		local function addDecalsToPart(part)
+			if not part:IsA("BasePart") then return end
+	
+			-- jaga agar tidak menumpuk terlalu banyak decal: hapus dulu (opsional)
+			clearExistingFaceDecals(part)
+	
+			for _, face in ipairs(faces) do
+				local d = Instance.new("Decal")
+				d.Name = "UniversalDecal_" .. tostring(face)
+				d.Face = face
+				d.Texture = "rbxassetid://" .. tostring(NEW_ID)
+				d.Parent = part
+			end
+		end
+	
+		local function addDecalsToAll()
+			for _, container in ipairs(SEARCH_CONTAINERS) do
+				for _, obj in ipairs(container:GetDescendants()) do
+					if obj:IsA("BasePart") then
+						pcall(addDecalsToPart, obj)
+					end
+				end
+			end
+		end
+	
+		-- Jalankan
+		addDecalsToAll()
+	
+		-- expose function jika mau dipanggil ulang
+		return {
+			AddToAll = addDecalsToAll
+		}
+	end)
+	
+end
+coroutine.wrap(GKIP_fake_script)()
+local function MWGDOPG_fake_script() -- SkyBox.LocalScript 
+	local script = Instance.new('LocalScript', SkyBox)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local sky = Instance.new("Sky")
+		sky.Name = "Sky"
+		sky.Parent = game.Lighting
+		sky.SkyboxBk = "rbxassetid://6147424071"
+		sky.SkyboxDn = "rbxassetid://6147424071"
+		sky.SkyboxFt = "rbxassetid://6147424071"
+		sky.SkyboxLf = "rbxassetid://6147424071"
+		sky.SkyboxRt = "rbxassetid://6147424071"
+		sky.SkyboxUp = "rbxassetid://6147424071"
+	end)
+	
+	
+end
+coroutine.wrap(MWGDOPG_fake_script)()
+local function DAUUC_fake_script() -- DestroyAll.LocalScript 
+	local script = Instance.new('LocalScript', DestroyAll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for _, obj in ipairs(game.Workspace:GetChildren()) do
+			-- Jangan hapus Player Characters, Terrain, dan Camera
+			if not obj:IsA("Terrain") and not obj:IsA("Camera") and not obj:IsDescendantOf(game.Players) then
+				obj:Destroy()
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(DAUUC_fake_script)()
+local function KPAYKWT_fake_script() -- KickAll.LocalScript 
+	local script = Instance.new('LocalScript', KickAll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i,v in pairs(game.Players:GetChildren()) do
+			v:Remove()	
+		end
+	end)
+end
+coroutine.wrap(KPAYKWT_fake_script)()
+local function IXMWKEH_fake_script() -- KillAll.LocalScript 
+	local script = Instance.new('LocalScript', KillAll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for _, p in pairs(game.Players:GetPlayers()) do
+			local char = p.Character
+			if char then
+				local hum = char:FindFirstChildOfClass("Humanoid")
+				if hum then
+					hum.Health = 0
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(IXMWKEH_fake_script)()
+local function CNCWNX_fake_script() -- CreateBaseplate.LocalScript 
+	local script = Instance.new('LocalScript', CreateBaseplate)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Hapus semua Part di Workspace
+		for _, obj in pairs(workspace:GetDescendants()) do
+			if obj:IsA("Part") then
+				obj:Destroy()
+			end
+		end
+	
+		-- Hapus semua Sky lama
+		for _, v in pairs(game.Lighting:GetChildren()) do
+			if v:IsA("Sky") then
+				v:Destroy()
+			end
+		end
+	
+		-- Buat Baseplate baru
+		local Instances = {
+			Baseplate = Instance.new("Part"),
+		};
+	
+		Instances.Baseplate.Anchored = true;
+		Instances.Baseplate.RightSurface = Enum.SurfaceType.Studs;
+		Instances.Baseplate.Locked = true;
+		Instances.Baseplate.BackSurface = Enum.SurfaceType.Studs;
+		Instances.Baseplate.FrontSurface = Enum.SurfaceType.Studs;
+		Instances.Baseplate.BottomSurface = Enum.SurfaceType.Studs;
+		Instances.Baseplate.LeftSurface = Enum.SurfaceType.Studs;
+		Instances.Baseplate.Size = Vector3.new(250, 8, 250);
+		Instances.Baseplate.CFrame = CFrame.new(0, -4, 0);
+		Instances.Baseplate.Parent = game.Workspace;
+	end)
+end
+coroutine.wrap(CNCWNX_fake_script)()
+local function KOGTB_fake_script() -- _666.LocalScript 
+	local script = Instance.new('LocalScript', _666)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Tambah Fire ke semua BasePart di workspace (sekarang)
+		for _, obj in pairs(workspace:GetDescendants()) do
+			if obj:IsA("BasePart") then
+				-- jangan tambahkan ke Terrain atau parts tertentu (ubah sesuai kebutuhan)
+				if obj:IsDescendantOf(workspace) and obj.Name ~= "NoFire" then
+					if not obj:FindFirstChildOfClass("Fire") then
+						local f = Instance.new("Fire")
+						f.Size = 10        -- ukuran api
+						f.Heat = 10       -- intensitas
+						f.Color = Color3.fromRGB(255, 120, 0)         -- warna utama
+						f.SecondaryColor = Color3.fromRGB(255, 200, 100) -- warna sekunder
+						f.Parent = obj
+					end
+				end
+			end
+		end
+	
+	end)
+end
+coroutine.wrap(KOGTB_fake_script)()
+local function SLPV_fake_script() -- DiscoFog.LocalScript 
+	local script = Instance.new('LocalScript', DiscoFog)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Lighting = game:GetService("Lighting")
+	
+		-- Set properti dasar Fog
+		Lighting.FogStart = 0
+		Lighting.FogEnd = 150 -- jarak pandang, bisa kamu ubah
+		Lighting.Brightness = 10
+		Lighting.ClockTime = 20 -- malam agar warna lebih terlihat
+	
+		-- Buat warna RGB berganti terus menerus
+		while task.wait(0.2) do
+			for i = 0, 255, 15 do
+				Lighting.FogColor = Color3.fromRGB(i, 0, 255 - i)
+				task.wait(0.05)
+			end
+			for i = 0, 255, 15 do
+				Lighting.FogColor = Color3.fromRGB(255 - i, i, 0)
+				task.wait(0.05)
+			end
+			for i = 0, 255, 15 do
+				Lighting.FogColor = Color3.fromRGB(0, 255 - i, i)
+				task.wait(0.05)
+			end
+		end
+	
+	end)
+	
+end
+coroutine.wrap(SLPV_fake_script)()
+local function YLDSSK_fake_script() -- ScarySkeleton.LocalScript 
+	local script = Instance.new('LocalScript', ScarySkeleton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--// Skybox Images
+		local imageOne = "http://www.roblox.com/asset/?id=169585459"
+		local imageTwo = "http://www.roblox.com/asset/?id=169585475"
+		local imageThree = "http://www.roblox.com/asset/?id=169585485"
+		local imageFour = "http://www.roblox.com/asset/?id=169585502"
+		local imageFive = "http://www.roblox.com/asset/?id=169585515"
+		local imageSix = "http://www.roblox.com/asset/?id=169585502"
+		local imageSeven = "http://www.roblox.com/asset/?id=169585485"
+		local imageEight = "http://www.roblox.com/asset/?id=169585475"
+	
+		--// Buat sky baru
+		local Lighting = game:GetService("Lighting")
+		local Sky = Instance.new("Sky")
+		Sky.Name = "SpookySky"
+		Sky.SkyboxBk = imageOne
+		Sky.SkyboxDn = imageOne
+		Sky.SkyboxFt = imageOne
+		Sky.SkyboxLf = imageOne
+		Sky.SkyboxRt = imageOne
+		Sky.SkyboxUp = imageOne
+		Sky.Parent = Lighting
+	
+		--// List gambar buat loop
+		local images = {
+			imageOne, imageTwo, imageThree, imageFour,
+			imageFive, imageSix, imageSeven, imageEight
+		}
+	
+		--// Loop ganti sky tiap 0.15 detik
+		while task.wait(0.15) do
+			for _, img in ipairs(images) do
+				Sky.SkyboxBk = img
+				Sky.SkyboxDn = img
+				Sky.SkyboxFt = img
+				Sky.SkyboxLf = img
+				Sky.SkyboxRt = img
+				Sky.SkyboxUp = img
+				task.wait(0.15)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(YLDSSK_fake_script)()
+local function JNEJHC_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local m = script.Parent
+	local p = m.Parent.P
+	
+	m.Visible = false
+	p.Text = ">"
+end
+coroutine.wrap(JNEJHC_fake_script)()
+local function KZSUN_fake_script() -- P.LocalScript 
+	local script = Instance.new('LocalScript', P)
+
+	local p = script.Parent
+	local m = p.parent.Main
+	
+	p.MouseButton1Click:Connect(function()
+		if m.Visible == true then
+			m.Visible = false
+			p.Text = ">"
+		else
+			m.Visible = true
+			p.Text = "<"
+		end
+	end)
+	
+end
+coroutine.wrap(KZSUN_fake_script)()
